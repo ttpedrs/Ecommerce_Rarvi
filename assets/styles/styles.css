@@ -1,0 +1,19 @@
+body {
+  background-color: #F5F5F5;
+}
+
+#categorias--produto-lista {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+  display: flex;
+  flex-direction: column;
+}
+
+#categorias--produto-lista > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

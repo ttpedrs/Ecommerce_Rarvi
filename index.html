@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rarvi</title>
+  <link rel="stylesheet" href="./assets/styles/reset.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <!-- digitar link e selecionar link:css -->
+</head>
+
+<body>
+  <header>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#">Página Inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <img src="./assets/images/logo.png" alt="logo do e-commerce">
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#">lupa</a></li>
+          <li><a href="#">carrinho</a></li>
+          <li><a href="./pages/login.html">login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <!-- Call to Action -->
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Similique iusto nam ullam commodi, deserunt
+          accusantium illo eius minima pariatur!
+        </p>
+        <a href="#mais-vendidos" role="button">Descubra Mais</a>
+      </div>
+      <div>
+        <!-- Imagem que não existe ainda -->
+        <img src="#" alt="imagem cta">
+      </div>
+      <div>
+        <h2>Novas Peças</h2>
+        <!-- div>(div>img)*2 - Ctrl + <espaço> -->
+        <div>
+          <div><img src="./assets/images/product-4.png" alt="produto 4"></div>
+          <div><img src="./assets/images/product-3.png" alt="produto 3"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <header>
+        <h2>Categorias</h2>
+      </header>
+      <div id="categorias">
+        <nav id="menu-categorias">
+          <!-- ul>(li>a)*7 -->
+          <ul>
+            <li class="active"><a href="#">Todas</a></li>
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Bermudas</a></li>
+            <li><a href="#">Meias</a></li>
+            <li><a href="#">Relógios</a></li>
+            <li><a href="#">Calçados</a></li>
+            <li><a href="#">Chapéus</a></li>
+          </ul>
+        </nav>
+        <div id="categorias--produto-lista">
+          <!-- (div>(div>a>img)*3)*3 -->
+          <!-- Para mesclar duas "células" basta remover uma das div's -->
+          <div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+          </div>
+          <div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+          </div>
+          <div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+          </div>
+        </div>
+        <!-- 
+          Role adicionada para indicar para o navegador que o link 'a' é um botão 
+        -->
+        <a href="#" role="button">Ver mais</a>
+      </div>
+    </section>
+    <section id="mais-vendidos">
+      <header>
+        <h2>Mais Vendidos</h2>
+      </header>
+      <div id="mais-vendidos--lista">
+        <div id="item-1">
+          <div class="imagem-item">
+            <img src="./assets/images/product-1.png" alt="produto 1">
+          </div>
+          <div class="detalhes-produto">
+            <div class="detalhes-produto--preco">
+              <span>Produto 1</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div class="detalhes-produto--avaliacao">
+              <img height="12" src="./assets/images/star.png" alt="estrela">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
+        </div>
+        <div id="item-2">
+          <div class="imagem-item">
+            <img src="./assets/images/product-2.png" alt="produto 2">
+          </div>
+          <div class="detalhes-produto">
+            <div class="detalhes-produto--preco">
+              <span>Produto 1</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div class="detalhes-produto--avaliacao">
+              <img height="12" src="./assets/images/star.png" alt="estrela">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
+        </div>
+        <div id="item-3">
+          <div class="imagem-item">
+            <img src="./assets/images/product-3.png" alt="produto 3">
+          </div>
+          <div class="detalhes-produto">
+            <div class="detalhes-produto--preco">
+              <span>Produto 1</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div class="detalhes-produto--avaliacao">
+              <img height="12" src="./assets/images/star.png" alt="estrela">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
+        </div>
+        <div id="item-4">
+          <div class="imagem-item">
+            <img src="./assets/images/product-4.png" alt="produto 4">
+          </div>
+          <div class="detalhes-produto">
+            <div class="detalhes-produto--preco">
+              <span>Produto 1</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div class="detalhes-produto--avaliacao">
+              <img height="12" src="./assets/images/star.png" alt="estrela">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mais-vendidos--cta">
+        <a href="#">Ver mais</a>
+      </div>
+    </section>
+    <section id="sessao-parceiros">
+      <a href="#"><img height="50" src="./assets/images/nike.png" alt="logo nike"></a>
+      <a href="#"><img height="50" src="./assets/images/adidas.png" alt="logo adidas"></a>
+      <a href="#"><img height="50" src="./assets/images/puma.png" alt="logo puma"></a>
+      <a href="#"><img height="50" src="./assets/images/bata.png" alt="logo bata"></a>
+      <a href="#"><img height="50" src="./assets/images/rebook.png" alt="logo rebook"></a>
+    </section>
+    <section>
+      <header>
+        <h2>Avaliações</h2>
+      </header>
+      <div id="sessao-avalicoes">
+        <div id="card-1">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+            Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores. <br>
+            Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
+          </p>
+          <div>
+            <div>
+              <img height="40" src="./assets/images/avatar.png" alt="foto perfil">
+            </div>
+            <div>
+              <span><strong>Justus Menke</strong></span>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+        <div id="card-2">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+            Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores. <br>
+            Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
+          </p>
+          <div>
+            <div>
+              <img height="40" src="./assets/images/avatar.png" alt="foto perfil">
+            </div>
+            <div>
+              <span><strong>Justus Menke</strong></span>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+        <div id="card-3">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+            Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores. <br>
+            Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
+          </p>
+          <div>
+            <div>
+              <img height="40" src="./assets/images/avatar.png" alt="foto perfil">
+            </div>
+            <div>
+              <span><strong>Justus Menke</strong></span>
+              <span>Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Faça sua avaliação</h3>
+        <form>
+          <fieldset>
+            <label for="name" hidden>Nome</label>
+            <input type="text" name="name" id="name" placeholder="nome">
+          </fieldset>
+          <fieldset>
+            <label for="avaliacao-email" hidden>E-mail</label>
+            <input placeholder="Digite seu e-mail" type="email" name="avaliacao-email" id="avaliacao-email">
+          </fieldset>
+          <label for="comentario" hidden>Comentário</label>
+          <textarea placeholder="Digite seu comentário" name="comentario" id="comentario" cols="30"
+            rows="10"></textarea>
+          <fieldset>
+            <label for="avaliacao">Avaliação</label>
+            <input type="number" name="avaliacao" id="avaliacao" max="5" min="1" value="5">
+          </fieldset>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <h1>Cadastre-se na Newsletter</h1>
+      <form>
+        <fieldset>
+          <label for="email" hidden>E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+          <button type="submit">Iniciar</button>
+        </fieldset>
+      </form>
+    </div>
+    <div>
+      <img src="./assets/images/logo.png" alt="logo e-commerce">
+      <small>
+        &copy; Copyright 2022. Todos os direitos reservados.
+      </small>
+    </div>
+  </footer>
+</body>
+
+</html>
